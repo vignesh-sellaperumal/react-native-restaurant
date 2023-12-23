@@ -23,7 +23,6 @@ const ResultsShowScreen = ({ navigation }) => {
     yelp
       .get(`/${navigation?.getParam("id")}`)
       .then((res) => {
-        console.log(JSON.stringify(res?.data, null, 5));
         setIsLoading(false);
         setResult(res?.data);
       })
