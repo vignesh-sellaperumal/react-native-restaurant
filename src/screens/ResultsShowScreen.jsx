@@ -63,60 +63,66 @@ const ResultsShowScreen = ({ navigation }) => {
 
   return (
     <SafeAreaView>
-      <View style={styles.container}>
-        {errorMessage ? <Text>{errorMessage}</Text> : null}
+      <ScrollView>
+        <View style={styles.container}>
+          {errorMessage ? <Text>{errorMessage}</Text> : null}
 
-        <View style={styles.rowContainer}>
-          <Text style={styles.name} numberOfLines={1}>{name}</Text>
-          {is_closed ? (
-            <FontAwesome5
-              name="door-closed"
-              size={24}
-              color="red"
-              style={styles.closedIcon}
-            />
-          ) : (
-            <FontAwesome5
-              name="door-open"
-              size={24}
-              color="green"
-              style={styles.closedIcon}
-            />
-          )}
-        </View>
-        <Image source={{ uri: image_url }} style={styles.image} />
-        <View style={styles.outerContainer}>
-          <View style={{ flex: 1 }}>
-            <Text style={styles.address} numberOfLines={2}>{location?.display_address}</Text>
-            <View style={styles.rowContainer}>
-              <Entypo name="old-phone" size={24} color="gray" />
-              <Text style={styles.phone}>{display_phone}</Text>
-            </View>
-            <View style={styles.rowContainer}>{getStars()}</View>
-            <Text style={styles.review}>{review_count} reviews</Text>
+          <View style={styles.rowContainer}>
+            <Text style={styles.name} numberOfLines={1}>
+              {name}
+            </Text>
+            {is_closed ? (
+              <FontAwesome5
+                name="door-closed"
+                size={24}
+                color="red"
+                style={styles.closedIcon}
+              />
+            ) : (
+              <FontAwesome5
+                name="door-open"
+                size={24}
+                color="green"
+                style={styles.closedIcon}
+              />
+            )}
           </View>
-          <TouchableOpacity>
-            <View style={styles.orderContainer}>
-              <Text style={styles.order}>Order Now</Text>
+          <Image source={{ uri: image_url }} style={styles.image} />
+          <View style={styles.outerContainer}>
+            <View style={{ flex: 1 }}>
+              <Text style={styles.address} numberOfLines={2}>
+                {location?.display_address}
+              </Text>
+              <View style={styles.rowContainer}>
+                <Entypo name="old-phone" size={24} color="gray" />
+                <Text style={styles.phone}>{display_phone}</Text>
+              </View>
+              <View style={styles.rowContainer}>{getStars()}</View>
+              <Text style={styles.review}>{review_count} reviews</Text>
             </View>
-          </TouchableOpacity>
+            <TouchableOpacity>
+              <View style={styles.orderContainer}>
+                <Text style={styles.order}>Order Now</Text>
+              </View>
+            </TouchableOpacity>
+          </View>
         </View>
-      </View>
-      <View>
-        <Text style={styles.suggetionText}>Not this? Explore more here</Text>
-        <FlatList
-          data={photos}
-          horizontal
-          showsHorizontalScrollIndicator={false}
-          renderItem={({ item }) => (
-            <Image
-              key={item}
-              source={{ uri: item }}
-              style={styles.suggestionImage}
-            />
-          )}
-        />
-      </View>
+        <View style={styles.exploreContainer}>
+          <Text style={styles.suggetionText}>Not this? Explore more here</Text>
+          <FlatList
+            data={photos}
+            horizontal
+            showsHorizontalScrollIndicator={false}
+            renderItem={({ item }) => (
+              <Image
+                key={item}
+                source={{ uri: item }}
+                style={styles.suggestionImage}
+              />
+            )}
+          />
+        </View>
+      </ScrollView>
     </SafeAreaView>
   );
 };
@@ -193,6 +199,9 @@ const styles = StyleSheet.create({
     color: "gray",
     marginVertical: 14,
     paddingHorizontal: 20,
+  },
+  exploreContainer: {
+    marginBottom: 20,
   },
   order: {
     color: "white",

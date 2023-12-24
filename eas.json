@@ -13,6 +13,11 @@
     "production": {}
   },
   "submit": {
-    "production": {}
+    "production": {
+      "android": {
+        "serviceAccountKeyPath": "./keys/flyzone-409003-957d7888b7cf.json",
+        "track": "internal"
+      }
+    }
   }
 }

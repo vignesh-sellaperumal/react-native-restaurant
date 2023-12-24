@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "flyzone-409003",
+  "private_key_id": "957d7888b7cffd0bda7f230617c73c59a1849c60",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDLDhnb4oqTnQy4\n41m9vaCvyvBxvQ7i6TNIxrjKilB3LDWhL78LJdc9a3/F2G5kUg7ourcsyX5Lek1b\nvbYorTKceLg//RBlIfs1jbcJHC/TbaSyNf2Y1tKKoPj4+CDO4ipPSrIQIt8d+Qu5\nIh/f2M7mdmGcepneqe75kBE3AaaOBWvGv2v+luWNJu1WEE5oL9EeRo14b4GEr1cE\nIf3UDca+G0hFA0nYyFtXEQmTJ3DIpUxXQvE2vZ/L88JiX9MUXGyHU8a6aOriN0AY\niSeUjObTkrdPcAOFDGBH1x3vkT3dWj2qOLeZwksMKRal3264XFkza86GYx0rRsJc\nZ/S0qkn5AgMBAAECggEAUGuRSkj64WO9+ivxCvjjfzw85o8eKjh6G0S5Q15saAaW\nZvRmEaA3ExhUTqNddVYamYn5qj9TSclygfctAgc2mEonjxBHQganW5p49562QmKW\nbA5+Fd5fHJCMiu6a79UbNLQ8ua9V9qUAQ56EST+xEg2oszTLZCihgS3R45s/v9co\nxeAUxjKm/msY7Ra9YPvh9m/1X3tKEKj2AtCctWy4DewhQmKC1CGKqnsEA1zd+ycy\nk46flBZzJHLKiaEmilWMgdxsu8RfbmZV82/Q8IYJY/BA28P1HNrtbx/sf0oq75gB\npG7F5QRTYCE+dLI0+ICpPKD+EDTFeUPHJhQ8AwLcEQKBgQD0NrCea2r3xS9o9+po\nJjsHw6OaxJO6zGf4I3dKjXGay+ogfxqWed4E5gc7UKR11XvPei1Kg3R7aN8nwnDG\nJTajtGf73qq2RWBZK19AUis6km/olZSdmuOjzc2bR1cmxrqEwUyWX5fNHpmmOfrl\nLo3tK1MSCRbEqFmzKh5DCjZ+wwKBgQDU2uN/rOZJD6EgAGo0c/fVrfBagTJHInO6\nIX++EL6tUg6aoXVLHTmllK+OSSF7j6dwXqunYjuJ/DYv55SgVGEDLaZpSxBZ6AQw\nU/TggoAIE+iRxgAAFSklyqmRf6UFW3oc6i5ETTL4V1LG4TbvS8/nbD3feJNXdzJU\n97VqRCqAkwKBgHnPgZ8zMyKs/y3bYtdaIl2IDuXWoV0uMbnKbukHzh+JEJnu7CMc\nXEqTNg429iE0P9JIPakKEqKvt4dMbBXZX/ydsrQl536M8jbn9FXP5nILsrgPTBak\nuGDu+Vw3ZFgaDdTD2eCzg7MzTS5lgyinZPFkh8XaNLoYws0j9/42bOIjAoGBAIGT\nntqijq37bcLlfcHgtwbFlIQEEm9rcbflnLY/y1QHmAxaLeVELUu3cAfWTSPDF9M4\nTpbfHg+qEfKnr7rKoyQkLiH7KEETFTm2YmQqDXbdZ78WIfnq59mxvfhtFDBmt7fS\nd8fslxLHVgTsJV0XccEYC7J23HtqfKFtCmteg+ExAoGBAPCzA09K8McUA9yaq4l7\ngVekx42gDU1pvdMDf+zGSF8FRdqWaIEXYH1CH5IK+VjMxHujFNlxNjm32oyLzOFj\nMaUry9EDpiUfnGEZcCNBnLfSVZqxtasEXoI6/XXSM0u8m6uHGOJRIZ3+aRGWVBDw\nwEg2uqgg4O/uL+7owc98AFuM\n-----END PRIVATE KEY-----\n",
+  "client_email": "play-console-service-account@flyzone-409003.iam.gserviceaccount.com",
+  "client_id": "103564383399390502162",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/play-console-service-account%40flyzone-409003.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
